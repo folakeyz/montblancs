@@ -1,0 +1,409 @@
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    padding: 3rem;
+    padding-top: 0.5rem;
+    position: fixed;
+    z-index: 9999;
+}
+.navbarActive{
+    width: 100%;
+    height: 80px;
+    padding: .5rem 2rem;
+    position: fixed;;
+    z-index: 9999;
+     background:#10101C;;
+}
+
+.logo{
+    width: 30%;
+    height: 80px;
+    float: left;
+}
+.logo img{
+    width: 40%;
+}
+.bar{
+    width: 15%;
+    height: 80px;
+    float: right;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+ 
+.navMenu {
+    width: 70%;
+    display: block;
+    float: right;
+  }
+
+  .navMenu ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.navMenu ul li{
+  width: 20%;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+  list-style: none;
+  text-align: center;
+  float: left;
+}
+.navMenu ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+   font-weight: 600;
+  }
+  .navbarActive ul li a{
+    color: white;
+ }
+
+  
+
+/*SmartPhones potrait Screen Css goes here*/
+@media (max-height: 500px) {
+     
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+    background:#10101C;
+}
+.navMenu {
+    width: 100%;
+    display: none;
+  }
+  .logo{
+    width: 60%;
+    height: 80px;
+    float: left;
+    padding: 10px;
+}
+.logo img{
+    width: 70%;
+}
+  .bar{
+      padding: 10px;
+      display: block;
+  }
+  .navMenuactive{
+    width: 100%;
+    height: 15rem;
+     background:#10101C;;
+    padding: 10px;
+    display: flex;
+    z-index: 9999;
+    position: absolute;
+    margin-top: 50px;
+}
+.navMenuactive ul{
+    padding: 0;
+    margin:0;
+    width: 100%;
+}
+.navMenuactive ul li{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    list-style: none;
+    line-height: 40px;
+}
+.navMenuactive ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: 12px;
+}
+.navbarActive{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+     background:#10101C;;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+
+  }
+  
+  @media (max-width: 640px) {
+      
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+    background:#10101C;
+}
+.navMenu {
+    width: 100%;
+    display: none;
+  }
+  .logo{
+    width: 60%;
+    height: 80px;
+    float: left;
+    padding: 10px;
+}
+.logo img{
+    width: 70%;
+}
+  .bar{
+      padding: 10px;
+      display: block;
+  }
+  .navMenuactive{
+    width: 100%;
+    height: 15rem;
+     background:#10101C;;
+    padding: 10px;
+    display: flex;
+    z-index: 9999;
+    position: absolute;
+    margin-top: 50px;
+}
+.navMenuactive ul{
+    padding: 0;
+    margin:0;
+    width: 100%;
+}
+.navMenuactive ul li{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    list-style: none;
+    line-height: 40px;
+}
+.navMenuactive ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+}
+.navbarActive{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+     background:#10101C;;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+        
+  }
+  
+  @media (max-height: 600px) {
+      
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+    background:#10101C;
+}
+.navMenu {
+    width: 100%;
+    display: none;
+  }
+  .logo{
+    width: 60%;
+    height: 80px;
+    float: left;
+    padding: 10px;
+}
+.logo img{
+    width: 70%;
+}
+  .bar{
+      padding: 10px;
+      display: block;
+  }
+  .navMenuactive{
+    width: 100%;
+    height: 15rem;
+     background:#10101C;;
+    padding: 10px;
+    display: flex;
+    z-index: 9999;
+    position: absolute;
+    margin-top: 50px;
+}
+.navMenuactive ul{
+    padding: 0;
+    margin:0;
+    width: 100%;
+}
+.navMenuactive ul li{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    list-style: none;
+    line-height: 40px;
+}
+.navMenuactive ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+}
+.navbarActive{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+     background:#10101C;;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+
+  }
+  
+  @media (max-width: 640px) {
+       
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+    background:#10101C;
+}
+.navMenu {
+    width: 100%;
+    display: none;
+  }
+  .logo{
+    width: 60%;
+    height: 80px;
+    float: left;
+    padding: 10px;
+}
+.logo img{
+    width: 70%;
+}
+  .bar{
+      padding: 10px;
+      display: block;
+  }
+  .navMenuactive{
+    width: 100%;
+    height: 15rem;
+     background:#10101C;;
+    padding: 10px;
+    display: flex;
+    z-index: 9999;
+    position: absolute;
+    margin-top: 50px;
+}
+.navMenuactive ul{
+    padding: 0;
+    margin:0;
+    width: 100%;
+}
+.navMenuactive ul li{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    list-style: none;
+    line-height: 40px;
+}
+.navMenuactive ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+}
+.navbarActive{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+     background:#10101C;;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+        
+  }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+    background:#10101C;
+}
+.navMenu {
+    width: 100%;
+    display: none;
+  }
+  .logo{
+    width: 60%;
+    height: 80px;
+    float: left;
+    padding: 10px;
+}
+.logo img{
+    width: 70%;
+}
+  .bar{
+      padding: 10px;
+      display: block;
+  }
+  .navMenuactive{
+    width: 100%;
+    height: 15rem;
+     background:#10101C;;
+    padding: 10px;
+    display: flex;
+    z-index: 9999;
+    position: absolute;
+    margin-top: 50px;
+}
+.navMenuactive ul{
+    padding: 0;
+    margin:0;
+    width: 100%;
+}
+.navMenuactive ul li{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    list-style: none;
+    line-height: 40px;
+}
+.navMenuactive ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+}
+.navbarActive{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    position: fixed;;
+    z-index: 9999;
+     background:#10101C;;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+  } 

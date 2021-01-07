@@ -1,0 +1,259 @@
+.hero{
+    width: 100%;
+    height: 50rem;
+    background: url(../../assets/1.png);
+    background-size: cover;
+    padding: 10rem;
+}
+.heroContent{
+    width: 60%;
+    height: 100%;
+    display: block;
+    padding-top: 5rem;
+}
+.heroContent h1{
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    font-weight: 700;
+}
+
+.heroContent p{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    font-weight: 600;
+}
+.heroContent a{
+    font-size: 1rem;
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    background: forestgreen;
+}
+
+.heroForm{
+    width: 80%;
+    height: 8rem;
+    display: block;
+   margin: 0 auto;
+   background:#21243D;
+   position: relative;
+   margin-top: 5rem;
+   border-radius: 10px;
+}
+
+
+.formGroup {
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 1rem;
+  }
+  .formGroup select{
+      width: 100%;
+      height: 2.5rem;
+      display: inline-block;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #24A148;
+  }
+
+.btns{
+    width: 100%;
+    padding-top: .5rem;
+    height: 2.5rem;
+    background:  #24A148;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+@media (max-height: 500px) {
+    .hero{
+        padding: 2rem;
+    } 
+    .heroContent h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .heroContent{
+        width: 100%;      
+        padding-top: 10rem;
+        text-align: center;
+    }
+    .heroContent p{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .heroContent a{
+        font-size: 10px;
+        color: white;
+        padding: 1rem 2rem;
+        font-weight: 500;
+        text-decoration: none;
+        background: forestgreen;
+        text-align: center;
+    }
+    .heroForm{
+        width: 100%;
+        height: 10rem;
+       background:#21243D;
+       margin-top: -10rem;
+
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .hero{
+        padding: 2rem;
+    } 
+    .heroContent h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .heroContent{
+        width: 100%;      
+        padding-top: 10rem;
+        text-align: center;
+    }
+    .heroContent p{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .heroContent a{
+        font-size: 10px;
+        color: white;
+        padding: 1rem 2rem;
+        font-weight: 500;
+        text-decoration: none;
+        background: forestgreen;
+        text-align: center;
+    }
+    .heroForm{
+        width: 100%;
+        height: 10rem;
+       background:#21243D;
+       margin-top: -10rem;
+
+    }
+  }
+  
+  @media (max-height: 600px) {
+    .hero{
+        padding: 2rem;
+    } 
+    .heroContent h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .heroContent{
+        width: 100%;      
+        padding-top: 10rem;
+        text-align: center;
+    }
+    .heroContent p{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .heroContent a{
+        font-size: 10px;
+        color: white;
+        padding: 1rem 2rem;
+        font-weight: 500;
+        text-decoration: none;
+        background: forestgreen;
+        text-align: center;
+    }
+    .heroForm{
+        width: 100%;
+        height: 10rem;
+       background:#21243D;
+       margin-top: -10rem;
+
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .hero{
+        padding: 2rem;
+    } 
+    .heroContent h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .heroContent{
+        width: 100%;      
+        padding-top: 10rem;
+        text-align: center;
+    }
+    .heroContent p{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .heroContent a{
+        font-size: 10px;
+        color: white;
+        padding: 1rem 2rem;
+        font-weight: 500;
+        text-decoration: none;
+        background: forestgreen;
+        text-align: center;
+    }
+    .heroForm{
+        width: 100%;
+        height: 10rem;
+       background:#21243D;
+       margin-top: -10rem;
+
+    }
+        
+  }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+   
+    .hero{
+        padding: 2rem;
+    } 
+    .heroContent h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .heroContent{
+        width: 100%;      
+        padding-top: 10rem;
+        text-align: center;
+    }
+    .heroContent p{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .heroContent a{
+        font-size: 10px;
+        color: white;
+        padding: 1rem 2rem;
+        font-weight: 500;
+        text-decoration: none;
+        background: forestgreen;
+        text-align: center;
+    }
+    .heroForm{
+        width: 100%;
+        height: 10rem;
+       background:#21243D;
+       margin-top: -10rem;
+
+    }
+  }
+
+
